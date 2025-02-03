@@ -1,0 +1,5 @@
+rich>=13.9.4
+prompt_toolkit>=3.0.50
+python-dotenv>=1.0.1
+typer>=0.15.1
+requests>=2.32.3

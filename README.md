@@ -20,6 +20,7 @@ Harness the power of DeepSeek R1's reasoning and Claude's creativity and code ge
 </div>
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
 - [Features](#features)
 - [Why R1 + Claude?](#why-r1--claude)
@@ -34,6 +35,10 @@ Harness the power of DeepSeek R1's reasoning and Claude's creativity and code ge
 - [Configuration Options](#configuration-options)
 - [Self-Hosting](#self-hosting)
 - [Security](#security)
+- [Command Line Interface](#command-line-interface)
+  - [Features](#features-1)
+  - [Prerequisites](#prerequisites-1)
+  - [Installation](#installation-1)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -212,6 +217,45 @@ DeepClaude can be self-hosted on your own infrastructure. Follow these steps:
 - No data storage or logged
 - BYOK (Bring Your Own Keys) architecture
 - Regular security audits and updates
+
+## Command Line Interface
+
+DeepClaude CLI provides a simple yet powerful command-line interface that leverages OpenRouter to access both DeepSeek R1 and Claude models directly from your terminal.
+
+### Features
+
+**Simple Interface** - Easy-to-use command-line tool for quick access to DeepClaude's capabilities
+
+**Streaming Support** - Real-time streaming of responses with both R1's reasoning and Claude's output
+
+**Secure** - Local API key management with no data storage
+
+**Configurable** - Customize API behavior through command-line arguments
+
+### Prerequisites
+
+- Python 3.7 or higher
+- OpenRouter API key
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/husniadil/deepclaude.git
+cd deepclaude/cli
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the CLI:
+```bash
+python deepclaude.py
+```
+
+For more detailed information about the CLI, check out the [CLI Documentation](cli/README.md).
 
 ## Contributing
 
